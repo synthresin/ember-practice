@@ -24,6 +24,7 @@
       <header>
         <nav>
           <ul class="clearfix">
+            <li class="left"><a href="">인덱스</a></li>
             <li class="left"><a href="">다이어리</a></li>
             <li class="left"><a href="">음악</a></li>
             <li class="left"><a href="">사진</a></li>
@@ -34,11 +35,17 @@
        {{outlet}}
       </div>
   </script>
+  <script type="text/x-handlebars" data-template-name="index">
+    인덱스영역
+  </script>
   <script type="text/x-handlebars" data-template-name="diary">
     다이어리영역
   </script>
   <script type="text/x-handlebars" data-template-name="music">
     뮤직영역
+  </script>
+  <script type="text/x-handlebars" data-template-name="photo">
+    사진영역
   </script>
 
   <!-- The missing protocol means that it will match the current protocol, either http or https. If running locally, we use the local jQuery. -->
